@@ -34,6 +34,14 @@ Each script runs a **real-time animated visualization** using `matplotlib` and `
 | -------------- | -------------------------------- | ---------- | ----- |
 | Huffman Coding | `greedy/huffman_visualizer.py` | O(n log n) | O(n)  |
 
+### ML/DL Optimizer Algorithms
+
+| Algorithm | File                                | Time        | Space |
+| --------- | ----------------------------------- | ----------- | ----- |
+| RMSProp   | `optimizers/rmsprop_visualizer.py` | O(n) / step | O(n)  |
+| Adam      | `optimizers/adam_visualizer.py`    | O(n) / step | O(n)  |
+| AdamW     | `optimizers/adamw_visualizer.py`  | O(n) / step | O(n)  |
+
 ## Setup
 
 ```bash
@@ -63,6 +71,9 @@ python graph/bellmanford_visualizer.py
 python tree/bst_visualizer.py
 python tree/avl_visualizer.py
 python greedy/huffman_visualizer.py
+python optimizers/rmsprop_visualizer.py
+python optimizers/adam_visualizer.py
+python optimizers/adamw_visualizer.py
 ```
 
 Each visualization window shows:
@@ -94,6 +105,10 @@ dsa-algorithms-visualization-toolkit/
 │   └── avl_visualizer.py
 ├── greedy/
 │   └── huffman_visualizer.py
+├── optimizers/
+│   ├── rmsprop_visualizer.py
+│   ├── adam_visualizer.py
+│   └── adamw_visualizer.py
 ├── requirements.txt
 └── README.md
 ```
